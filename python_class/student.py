@@ -14,11 +14,11 @@ class Student(object):
         if self.age < 18:
             print(f'{self.name}只能看动画片')
         else:
-            print(f'{self.name}可以看18+电影')
+            print('I love Wenxi Wang')
 
 
 def run():
-    stu1 = Student('John', 35)
+    stu1 = Student('Zhang', 22)
     stu1.study('算法导论')
     stu1.watch_movie()
     stu2 = Student('王大锤', 17)
