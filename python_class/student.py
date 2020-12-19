@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
 
-
 class Student(object):
     def __init__(self, name, age):
         self.name = name
@@ -15,6 +14,10 @@ class Student(object):
             print(f'{self.name}只能看动画片')
         else:
             print('I love Wenxi Wang')
+
+    @property
+    def age(self):
+        return self.age
 
 
 def run():

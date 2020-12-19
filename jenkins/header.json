@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "nodeDescription": "",
+  "numExecutors": "1",
+  "remoteFS": "/root/test",
+  "labelString": "",
+  "mode": "NORMAL",
+  "": [
+    "hudson.slaves.CommandLauncher",
+    "hudson.slaves.RetentionStrategy$Always"
+  ],
+  "launcher": {
+    "stapler-class": "hudson.slaves.CommandLauncher",
+    "$class": "hudson.slaves.CommandLauncher",
+    "command": ""
+  },
+  "retentionStrategy": {
+    "stapler-class": "hudson.slaves.RetentionStrategy$Always",
+    "$class": "hudson.slaves.RetentionStrategy$Always"
+  },
+  "nodeProperties": {
+    "stapler-class-bag": "true"
+  },
+  "type": "hudson.slaves.DumbSlave",
+  "Jenkins-Crumb": "ce74f9cbdd0686d79562aa3180c845f1c8d47e5a88c058745e32e4c544084dd2"
+}
