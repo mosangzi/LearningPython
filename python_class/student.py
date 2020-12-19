@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
 
+
 class Student(object):
     def __init__(self, name, age):
         self.name = name
-        self.age = age
+        self._age = age
 
     def study(self, course_name):
         print(f'{self.name}正在学习{course_name}')
@@ -17,7 +18,11 @@ class Student(object):
 
     @property
     def age(self):
-        return self.age
+        return self._age
+
+    @age.setter
+    def age(self, value):
+        self._age = value
 
 
 def run():
